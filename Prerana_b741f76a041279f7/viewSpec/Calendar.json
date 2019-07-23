@@ -1,0 +1,116 @@
+{
+  "name" : "Calendar",
+  "type" : "page",
+  "displayName" : "Left Sidebar",
+  "controller" : "AppC",
+  "containerSpecs" : [
+    {
+      "name" : "mainRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "leftColumn",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "row_1",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "sidebar_1",
+                  "autoNav" : false,
+                  "css" : {
+                    "flex-grow" : 1
+                  },
+                  "reference" : "sidebar",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_",
+                  "type" : "view"
+                }
+              ],
+              "cssClass" : "trillo-container-row",
+              "type" : "row"
+            }
+          ],
+          "css" : {
+            "flex-grow" : "0"
+          },
+          "cssClass" : "left-column trillo-container-column",
+          "designTimeWidth" : "240px",
+          "tag" : "templateE",
+          "type" : "column"
+        },
+        {
+          "name" : "mainContentArea",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "row_2",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "topNav_1",
+                  "autoNav" : false,
+                  "css" : {
+                    "flex-grow" : 1
+                  },
+                  "reference" : "topNav",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_",
+                  "type" : "view"
+                }
+              ],
+              "cssClass" : "trillo-container-row",
+              "type" : "row"
+            },
+            {
+              "name" : "row_3",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "column_1",
+                  "autoNav" : false,
+                  "childrenSpecs" : [
+                    {
+                      "name" : "div_1",
+                      "autoNav" : false,
+                      "cssClass" : "trillo-component card ",
+                      "html" : "<div class=\"trillo-component card \" nm=\"div_1\">\n  <div class=\"card-body text-center\">\n    <h5 class=\"card-text\">Calendar</h5>\n    <button class=\"btn btn-rose btn-fill\" onclick=\"demo.showSwal('basic')\">Under Construction</button>\n  </div>\n</div>",
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_",
+                      "type" : "div"
+                    }
+                  ],
+                  "cssClass" : "trillo-container-column",
+                  "type" : "column"
+                }
+              ],
+              "cssClass" : "trillo-container-row",
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "row"
+            }
+          ],
+          "cssClass" : "trillo-container-column",
+          "designTimeHeight" : "100px",
+          "flexGrow" : "1",
+          "main" : true,
+          "tag" : "templateE",
+          "type" : "column"
+        }
+      ],
+      "css" : {
+        "flex-flow" : "1"
+      },
+      "cssClass" : "light-content-area main-row trillo-container-row",
+      "flexGrow" : "1",
+      "main" : true,
+      "tag" : "templateE",
+      "type" : "row"
+    }
+  ],
+  "css" : {
+    "padding" : "0px"
+  },
+  "cssClass" : "trillo-container"
+}

@@ -1,0 +1,7 @@
+{
+  "name" : "Prerana",
+  "type" : "page",
+  "displayName" : "Prerana Template",
+  "controller" : "AppC",
+  "cssClass" : "trillo-container"
+}

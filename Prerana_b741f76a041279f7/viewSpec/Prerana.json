@@ -1,0 +1,13 @@
+{
+  "name" : "Prerana",
+  "type" : "page",
+  "displayName" : "Left Sidebar",
+  "controller" : "AppC",
+  "css" : {
+    "padding" : "0px",
+    "display" : "flex",
+    "flex-direction" : "column",
+    "flex-grow" : "1"
+  },
+  "cssClass" : "trillo-container trillo-item-design-mode"
+}
