@@ -9,6 +9,46 @@
       "type" : "dialogView",
       "viewName" : "NewUserForm",
       "viewType" : "html"
+    },
+    {
+      "name" : "button_3",
+      "message" : "Buy Premium Membership.",
+      "props" : {
+        "title" : "Paid Section",
+        "yes" : true,
+        "no" : true
+      },
+      "type" : "messageDialog"
+    },
+    {
+      "name" : "button_6",
+      "message" : "Buy Premium Membership.",
+      "props" : {
+        "title" : "Paid Section",
+        "yes" : true,
+        "no" : true
+      },
+      "type" : "messageDialog"
+    },
+    {
+      "name" : "button_7",
+      "message" : "Buy Premium Membership.",
+      "props" : {
+        "title" : "Paid Section",
+        "yes" : true,
+        "no" : true
+      },
+      "type" : "messageDialog"
+    },
+    {
+      "name" : "button_8",
+      "message" : "Buy Premium Membership.",
+      "props" : {
+        "title" : "Paid Section",
+        "yes" : true,
+        "no" : true
+      },
+      "type" : "messageDialog"
     }
   ],
   "cssClass" : "trillo-application js-application"

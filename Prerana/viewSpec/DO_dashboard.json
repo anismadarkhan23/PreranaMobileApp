@@ -9,6 +9,12 @@
       "type" : "dialogView",
       "viewName" : "NewUserForm",
       "viewType" : "html"
+    },
+    {
+      "name" : "button_3",
+      "type" : "dialogView",
+      "viewName" : "UpdatePres",
+      "viewType" : "html"
     }
   ],
   "cssClass" : "trillo-application js-application"
