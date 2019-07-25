@@ -1,0 +1,19 @@
+{
+  "name" : "UserList",
+  "type" : "dataTable",
+  "displayName" : "List of User",
+  "container" : "main-container",
+  "observeChanges" : true,
+  "apiSpec" : {
+    "impl" : "Trillo.RestAdapter",
+    "serviceUrl" : "ds/page/auth/vault",
+    "body" : {
+      "className" : "User",
+      "start" : 1,
+      "size" : 2000,
+      "orderBy" : "userId"
+    },
+    "method" : "post"
+  },
+  "cssClass" : "trillo-table"
+}

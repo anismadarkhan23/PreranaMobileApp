@@ -3,5 +3,17 @@
   "type" : "page",
   "displayName" : "Prerana Template",
   "controller" : "AppC",
+  "actionSpecs" : [
+    {
+      "name" : "do_button",
+      "target" : "DO_dashboard",
+      "type" : "navigateToPage"
+    },
+    {
+      "name" : "agent_button",
+      "target" : "agent_dashboard",
+      "type" : "navigateToPage"
+    }
+  ],
   "cssClass" : "trillo-container trillo-application js-application"
 }

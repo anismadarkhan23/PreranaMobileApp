@@ -1,0 +1,15 @@
+{
+  "name" : "DO_dashboard",
+  "type" : "page",
+  "displayName" : "Blank Template",
+  "controller" : "AppC",
+  "actionSpecs" : [
+    {
+      "name" : "button_1",
+      "type" : "dialogView",
+      "viewName" : "NewUserForm",
+      "viewType" : "default"
+    }
+  ],
+  "cssClass" : "trillo-application js-application"
+}

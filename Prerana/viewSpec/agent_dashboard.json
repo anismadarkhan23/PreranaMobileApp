@@ -1,0 +1,6 @@
+{
+  "name" : "agent_dashboard",
+  "type" : "page",
+  "displayName" : "Blank Template",
+  "controller" : "AppC"
+}

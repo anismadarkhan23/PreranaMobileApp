@@ -1,44 +1,97 @@
-<div>
-  <h1 class="trillo-form-title">
-    New User
-  </h1>
+<div class="" name="CreatePresentaion" nm="CreatePresentaion" style="background: #D3D3D3; border: 1px solid black; border-radius:5px; padding:5px">
+  <h3 class="trillo-form-title" style="text-align:center"> Create Presentation </h3>
   <form>
     <div class="form-group">
-      <label for="userId">User Id</label> <input type="text" class="form-control" nm="userId" data-validation="length, custom"
-        data-validation-length="2-16" data-validation-regexp="^[$A-Za-z][0-9A-Za-z_$]*$"
-        data-validation-error-msg-custom="User id should start with an alphabet followed by alphanumeric and '_'">
+      <label for="userId">Presentation Number</label>
+      <input type="text" class="form-control" nm="presNum">
     </div>
     <div class="form-group">
-      <label for="password">Password</label> <input type="password" class="form-control" nm="password" name="password"
-        data-validation="length" data-validation-length="min6">
+      <label for="password">Date of Presentaion</label>
+      <input type="date" class="form-control" nm="dateOfPres">
     </div>
     <div class="form-group">
-      <label for="rptPassword">Repeat Password</label>
-      <input type="password" class="form-control" nm="rptPassword" data-validation="length, confirmation" 
-      data-validation-length="min6" data-validation-confirm="password" data-validation-error-msg-confirmation="Passwords do not match">
+      <label for="rptPassword">Name of Proposer(New)</label>
+      <input type="text" class="form-control" nm="newPorpName">
     </div>
     <div class="form-group">
-      <label for="role">Role</label>
-      <select class="form-control" nm="role">
-        <option value="dev">
-          Developer
-        </option>
-        <option value="admin">
-          Admin
-        </option>
+      <label for="rptPassword">Name of Proposer(Saved)</label>
+      <input type="text" class="form-control" nm="SavedPropName">
+    </div>
+    <div class="form-group">
+      <label for="role">Name of minor child/Joint life</label>
+      <select class="form-control" nm="nameMinor">
+        <option value="select"> Select </option>
+        <option value="dev"> Developer </option>
+        <option value="admin"> Admin </option>
       </select>
     </div>
     <div class="form-group">
-      <label for="email">Email</label>
-      <input type="text" class="form-control" data-validation="email" nm="email">
+      <label for="role">Income tax slab</label>
+      <select class="form-control" nm="ITslab">
+        <option value="select"> Select </option>
+        <option value="dev"> Developer </option>
+        <option value="admin"> Admin </option>
+      </select>
     </div>
     <div class="form-group">
-      <label for="firstName">First Name</label>
-      <input type="text" class="form-control" nm="firstName">
+      <label for="rptPassword">Date of Commencement</label>
+      <input type="date" class="form-control" nm="dateofCommence">
     </div>
     <div class="form-group">
-      <label for="lastName">Last Name</label>
-      <input type="text" class="form-control" nm="lastName">
+      <label for="role">Plan Number/Name</label>
+      <select class="form-control" nm="planNum">
+        <option value="select"> Select </option>
+        <option value="dev"> Developer </option>
+        <option value="admin"> Admin </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="role">Policy Term</label>
+      <select class="form-control" nm="polterm">
+        <option value="select"> Select </option>
+        <option value="dev"> Developer </option>
+        <option value="admin"> Admin </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="role">Premium Paying Term</label>
+      <select class="form-control" nm="premiumPaying">
+        <option value="select"> Select </option>
+        <option value="dev"> Developer </option>
+        <option value="admin"> Admin </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="role">Mode of Premium</label>
+      <select class="form-control" nm="premiumMode">
+        <option value="select"> Select </option>
+        <option value="dev"> Developer </option>
+        <option value="admin"> Admin </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="userId">Presentation Number</label>
+      <input type="text" class="form-control" nm="pres_num">
+    </div>
+    <div class="form-group">
+      <label for="role">Optional Riders</label>
+      <select class="form-control" nm="optRider">
+        <option value="select"> Select </option>
+        <option value="dev"> Developer </option>
+        <option value="admin"> Admin </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="role">Maturity Settelment Option</label>
+      <select class="form-control" nm="matStmt">
+        <option value="select"> Select </option>
+        <option value="dev"> Developer </option>
+        <option value="admin"> Admin </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="userId">For paid-up Illustration</label>
+      <input type="text" class="form-control" nm="forpaidup">
     </div>
     <div class="trillo-dialog-button-group">
       <button type="button" nm="close" class="btn btn-primary js-tool">Cancel</button>
@@ -46,4 +99,3 @@
     </div>
   </form>
 </div>
-

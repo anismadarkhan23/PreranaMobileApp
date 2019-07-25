@@ -1,0 +1,6 @@
+{
+  "name" : "login",
+  "type" : "page",
+  "displayName" : "Login",
+  "cssClass" : "trillo-root-elem"
+}
