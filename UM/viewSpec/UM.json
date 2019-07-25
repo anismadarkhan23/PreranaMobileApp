@@ -1,0 +1,7 @@
+{
+  "name" : "UM",
+  "type" : "page",
+  "controller" : "UMC",
+  "nextViewName" : "UserList",
+  "cssClass" : "trillo-application js-application"
+}

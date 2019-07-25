@@ -2,6 +2,7 @@
   {
     "appTemplate" : "webapp",
     "blank" : false,
+    "defaultPage" : true,
     "displayName" : "Prerana Insurance",
     "linkedApp" : "shared",
     "metaDataPubliclyViewable" : false,
@@ -15,6 +16,19 @@
     "usingViewSpecs" : true
   },
   {
+    "blank" : false,
+    "description" : "Authentication",
+    "displayName" : "Authentication",
+    "htmlHeadTitle" : "Authentication",
+    "keywords" : "Cloud, JavaScript, Framework, Services, Micro, Prototype",
+    "linkedApp" : "shared",
+    "name" : "auth",
+    "trilloVersion" : "1.0",
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : false
+  },
+  {
     "appTemplate" : "webapp",
     "blank" : false,
     "description" : "User Management",
@@ -26,19 +40,6 @@
     "name" : "UM",
     "requiredRoles" : "admin",
     "requiresLogin" : true,
-    "trilloVersion" : "1.0",
-    "usingEnumsCatalog" : true,
-    "usingStringFiles" : true,
-    "usingViewSpecs" : false
-  },
-  {
-    "blank" : false,
-    "description" : "Authentication",
-    "displayName" : "Authentication",
-    "htmlHeadTitle" : "Authentication",
-    "keywords" : "Cloud, JavaScript, Framework, Services, Micro, Prototype",
-    "linkedApp" : "shared",
-    "name" : "auth",
     "trilloVersion" : "1.0",
     "usingEnumsCatalog" : true,
     "usingStringFiles" : true,
