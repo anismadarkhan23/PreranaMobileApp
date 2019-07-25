@@ -1,0 +1,15 @@
+{
+  "name" : "UpdatePres",
+  "type" : "html",
+  "actionSpecs" : [
+    {
+      "name" : "close"
+    },
+    {
+      "name" : "ok"
+    },
+    {
+      "name" : "update"
+    }
+  ]
+}
