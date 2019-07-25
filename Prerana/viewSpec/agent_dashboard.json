@@ -2,5 +2,14 @@
   "name" : "agent_dashboard",
   "type" : "page",
   "displayName" : "Blank Template",
-  "controller" : "AppC"
+  "controller" : "AppC",
+  "actionSpecs" : [
+    {
+      "name" : "button_1",
+      "type" : "dialogView",
+      "viewName" : "NewUserForm",
+      "viewType" : "html"
+    }
+  ],
+  "cssClass" : "trillo-application js-application"
 }
