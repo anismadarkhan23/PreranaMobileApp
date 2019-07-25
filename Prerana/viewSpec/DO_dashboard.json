@@ -8,7 +8,7 @@
       "name" : "button_1",
       "type" : "dialogView",
       "viewName" : "NewUserForm",
-      "viewType" : "default"
+      "viewType" : "html"
     }
   ],
   "cssClass" : "trillo-application js-application"
