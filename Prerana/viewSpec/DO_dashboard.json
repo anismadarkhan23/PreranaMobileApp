@@ -15,6 +15,18 @@
       "type" : "dialogView",
       "viewName" : "UpdatePres",
       "viewType" : "html"
+    },
+    {
+      "name" : "button_4",
+      "type" : "dialogView",
+      "viewName" : "PlansForms",
+      "viewType" : "html"
+    },
+    {
+      "name" : "button_5",
+      "type" : "dialogView",
+      "viewName" : "PreranaBooks",
+      "viewType" : "html"
     }
   ],
   "cssClass" : "trillo-application js-application"

@@ -1,0 +1,54 @@
+{
+  "name" : "PreranaBooks",
+  "type" : "html",
+  "actionSpecs" : [
+    {
+      "name" : "replacedoc"
+    },
+    {
+      "name" : "addnewdoc"
+    },
+    {
+      "name" : "download_1"
+    },
+    {
+      "name" : "viewpdf_1"
+    },
+    {
+      "name" : "download_2"
+    },
+    {
+      "name" : "viewpdf_2"
+    },
+    {
+      "name" : "download_3"
+    },
+    {
+      "name" : "viewpdf_3"
+    },
+    {
+      "name" : "download_4"
+    },
+    {
+      "name" : "viewpdf_4"
+    },
+    {
+      "name" : "replacebook"
+    },
+    {
+      "name" : "addnewbook"
+    },
+    {
+      "name" : "download_5"
+    },
+    {
+      "name" : "viewpdf_5"
+    },
+    {
+      "name" : "download_6"
+    },
+    {
+      "name" : "viewpdf_6"
+    }
+  ]
+}
